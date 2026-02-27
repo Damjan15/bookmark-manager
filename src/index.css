@@ -19,4 +19,18 @@
   .btn-primary {
     @apply inline-block bg-teal-700 text-white text-center transition-all ease-in-out duration-300 text-base leading-[140%] font-manrope font-semibold hover:bg-teal-800 focus:outline-2 focus:outline-offset-3 focus:outline-teal-700 w-full py-4 rounded-md shadow-sm cursor-pointer;
   }
+
+  .input-wrappper {
+    @apply flex flex-col space-y-2;
+  }
+
+  .input-label,
+  .input-field,
+  .input-error {
+    @apply font-manrope font-semibold text-sm leading-[140%] md:text-base lg:text-lg;
+  }
+
+  .input {
+    @apply border border-neutral-500 rounded-md py-3 px-2 bg-white focus:bg-neutral-100 focus:outline-none;
+  }
 }
