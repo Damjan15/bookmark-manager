@@ -16,10 +16,12 @@
 }
 
 @layer utilities {
+  /* Button Variants */
   .btn-primary {
     @apply inline-block bg-teal-700 text-white text-center transition-all ease-in-out duration-300 text-base leading-[140%] font-manrope font-semibold hover:bg-teal-800 focus:outline-2 focus:outline-offset-3 focus:outline-teal-700 w-full py-4 rounded-md shadow-sm cursor-pointer;
   }
 
+  /* Input */
   .input-wrappper {
     @apply flex flex-col space-y-2;
   }
@@ -32,5 +34,14 @@
 
   .input {
     @apply border border-neutral-500 rounded-md py-3 px-2 bg-white focus:bg-neutral-100 focus:outline-none;
+  }
+
+  /* Toast Notifications */
+  .toast {
+    @apply fixed bottom-4 right-4 flex items-center gap-4 shadow-lg p-4 rounded-xl;
+  }
+
+  .toast-message {
+    @apply font-manrope text-sm leading-[150%] text-neutral-900 font-semibold;
   }
 }
