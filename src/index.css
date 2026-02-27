@@ -14,3 +14,9 @@
   --color-red-600: #fd4740;
   --color-red-800: #cb0a04;
 }
+
+@layer utilities {
+  .btn-primary {
+    @apply inline-block bg-teal-700 text-white text-center transition-all ease-in-out duration-300 text-base leading-[140%] font-manrope font-semibold hover:bg-teal-800 focus:outline-2 focus:outline-offset-3 focus:outline-teal-700 w-full py-4 rounded-md shadow-sm cursor-pointer;
+  }
+}
