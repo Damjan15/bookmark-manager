@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-manrope: "Manrope", sans-serif;
+
+  --color-neutral-900: #051513;
+  --color-neutral-800: #4c5c59;
+  --color-neutral-500: #899492;
+  --color-neutral-400: #c0cfcc;
+  --color-neutral-300: #dde9e7;
+  --color-neutral-100: #e8f0ef;
+  --color-teal-700: #014745;
+  --color-teal-800: #013c3b;
+  --color-red-600: #fd4740;
+  --color-red-800: #cb0a04;
+}
